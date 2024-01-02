@@ -111,6 +111,7 @@ class MainPage extends StatelessWidget {
       return loadingWidget();
     }
 
+    // isEmpty -> set의 값 여부 확인
     if (storeModel.stores.isEmpty) {
       return const Center(
         child: Column(
