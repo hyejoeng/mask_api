@@ -2,13 +2,13 @@ class Store {
   Store({
     required this.addr,
     required this.code,
-    required this.createdAt,
     required this.lat,
     required this.lng,
     required this.name,
-    required this.remainStat,
-    required this.stockAt,
     required this.type,
+    required this.stockAt,
+    required this.createdAt,
+    required this.remainStat,
   });
   late final String addr;
   late final String code;
